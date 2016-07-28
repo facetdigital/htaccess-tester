@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+
+
+# Rewrite everything to index.php
+RewriteRule ^index\.php$ - [L]
+RewriteRule . /index.php [L]
